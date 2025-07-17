@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+html{
+    cursor: url("../public/arrowPoint.svg"), auto;
+}
+
+.curPointer , .cursor-pointer {
+    cursor: url("../public/arrowClick.svg"), pointer;
+}
+
+html::selection{
+    background-color: rgba(43, 240, 43, 0.692);
+    color: black;
+}
