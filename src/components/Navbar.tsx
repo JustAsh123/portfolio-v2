@@ -8,8 +8,8 @@ const Navbar: React.FC = () => {
   return (
     <>
       {!menuOpen ? (
-        <div className="bg-lime-500 big-font h-[100px] top-0 w-full flex items-center justify-between flex-row px-[56px] z-50 fixed">
-          <img src="./logo.png" className="h-[70%] rounded-xl" />
+        <div className="bg-green-500 big-font h-[100px] top-0 w-full flex justify-between flex-row px-[56px] z-50 fixed">
+          <img src="./logo.png" className="h-[70%] mt-[10px] ml-[30px] rounded-xl" />
         </div>
       ) : (
         <ExpandedNavbar />

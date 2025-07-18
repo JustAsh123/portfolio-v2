@@ -11,13 +11,13 @@ const Hero = () => {
           exit={{ x: "-1000px" }}
           transition={{ duration: 1 }}
         >
-          <div className="text-2xl font-bold big-font text-lime-500 bg-green-400/30 px-4 py-2 inline rounded-lg mb-8">
+          <div className="text-2xl font-bold big-font text-green-600 bg-green-400/30 px-4 py-2 inline rounded-lg mb-8">
             ✌️ Hi there! I am Ashmit.
           </div>
           <div className="text-white big-font text-5xl my-8">
-            I am a <span className="text-lime-500 big-font">Full-Stack Developer</span>.
-            I create <span className="text-lime-500 big-font">Functional</span> and{" "}
-            <span className="text-lime-500 big-font">Pretty</span> Websites.
+            I am a <span className="text-green-600 big-font">Full-Stack Developer</span>.
+            I create <span className="text-green-600 big-font">Functional</span> and{" "}
+            <span className="text-green-600 big-font">Pretty</span> Websites.
           </div>
           <div className="text-md big-font text-gray-400 my-4">
             I'm a self-taught software engineer dedicated to building

@@ -12,3 +12,7 @@ html::selection{
     background-color: rgba(43, 240, 43, 0.692);
     color: white;
 }
+
+html{
+    background-color: #020618;
+}

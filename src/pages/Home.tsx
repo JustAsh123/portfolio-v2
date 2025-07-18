@@ -1,11 +1,11 @@
 import Hero from "../components/Hero"
-
+import Tooling from "../components/Tooling"
 const Home = () => {
   return (
     <>
     <Hero></Hero>
-    <div className="min-h-screen">
-
+    <div className="mt-[100px]">
+      <Tooling />
     </div>
     </>
   )
